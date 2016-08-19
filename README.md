@@ -19,18 +19,18 @@ The Vagrant setup contains a provisioning script in *vagrant-setup/bootstrap.sh*
 
 ### Starting Vagrant box
 
-**1.** `git clone https://github.com/jgallow/hapi-vagrant-boilerplate.git && cd hapi-vagrant-boilerplate`
-**2.** `npm install`
-**3.** Modify *vagrant-setup/bootstrap.sh* with desired Postgres settings
-**4.** `vagrant up`
-**5.** `vagrant ssh`
-**6.** `cd /mnt/bootstrap && npm start`
+1. `git clone https://github.com/jgallow/hapi-vagrant-boilerplate.git && cd hapi-vagrant-boilerplate`
+2. `npm install`
+3. Modify *vagrant-setup/bootstrap.sh* with desired Postgres settings
+4. `vagrant up`
+5. `vagrant ssh`
+6. `cd /mnt/bootstrap && npm start`
 
 If you don't need the Vagrant box you can just:
 
-**1.** `git clone https://github.com/jgallow/hapi-vagrant-boilerplate.git && cd hapi-vagrant-boilerplate`
-**2.** `npm install`
-**3.** `npm start`
+1. `git clone https://github.com/jgallow/hapi-vagrant-boilerplate.git && cd hapi-vagrant-boilerplate`
+2. `npm install`
+3. `npm start`
 
 **Note:** Uses nodemon to automatically restart server on changes so if you don't yet have it installed globally do so with `npm install nodemon -g`
 
