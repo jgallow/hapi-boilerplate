@@ -7,6 +7,8 @@ A complete development environment for Hapi based projects.
 * ES6 Hapi development via Babel
 * Configurable Vagrant box with PostgreSQL and Redis
 
+**Security note:** It is **_highly recommended_** you add `.env` to your `.gitignore` file to prevent any credentials or keys from being checked into a public repository. It should also be noted that the Vagrant setup should (obviously) **not** be used in production and is intended for local development only.
+
 ## Vagrant development box
 
 The Vagrant setup contains a provisioning script in *vagrant-setup/bootstrap.sh* that adds a few backing services to develop against. These include:
