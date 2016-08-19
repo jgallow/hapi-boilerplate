@@ -1,0 +1,27 @@
+{
+  "name": "hapi-vagrant-boilerplate",
+  "version": "0.0.1",
+  "description": "A Hapi project boilerplate with supporting Vagrant box",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon bootstrap.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgallow/hapi-vagrant-boilerplate.git"
+  },
+  "keywords": [],
+  "author": "Josh Galloway",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jgallow/hapi-vagrant-boilerplate/issues"
+  },
+  "homepage": "https://github.com/jgallow/hapi-vagrant-boilerplate#readme",
+  "dependencies": {
+    "babel-core": "^6.13.2",
+    "babel-preset-es2015": "^6.13.2",
+    "dotenv": "^2.0.0",
+    "hapi": "^14.2.0"
+  }
+}
